@@ -63,4 +63,11 @@
 
   let value2: any = "Hello World";
   let length: number = (value2 as string).length;
+
+  // Distinct lists in sets when unique all values
+  // No keys like a hashmap
+  // More like an array
+  // Maintains order of insertion
+  // Use when arrays are meant to be unique
+  const numSet = new Set([1, 2, 3]);
 }
